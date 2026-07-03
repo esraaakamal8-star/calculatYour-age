@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/themes/airbnb.css">
+    <title>calculate your age</title>
+</head>
+<body>
+    <header class="hero">
+        <div class="circle"></div>
+        <div class="circle circle2"></div>
+        <div class="dots"></div>
+
+        <div class="header-section">
+            <div class="sign">
+               <p>Age Calculator</p>
+           </div>
+
+        <div class="head-section">
+            <h1>How old are you,<span>really?</span></h1>
+
+            <p>
+                Not just in years — in days, weeks, heartbeats, and life chapters. <br>
+                Enter your birth year to find out.
+           </p>
+
+           <div class="calculate-section">
+              <input
+                type="text"
+                id="birth-date"
+                class="age-input"
+                placeholder="Select your birth date">
+
+              <button class="calculate-button" id="calculate-button">Calculate</button>
+             
+              <div class="group-section" id="group-section">
+                 <p id="result" class="result"></p>
+
+              <div class="bar">
+                <p class="p-bar" id="bartext"></p>
+                <p>100%</p>
+              </div>
+
+              <div class="progress-contianer">
+                <div class="progress-bar"></div>
+              </div>
+
+              <hr class="sd">
+
+                <div  class="cards-section">
+                  <div  class="card">
+                    <h2 id="day">0</h2>
+                    <p>days</p>
+                 </div>
+
+                 <div class="card">
+                   <h2 id="week">0</h2>
+                   <p>weeks</p>
+                 </div>
+
+                 <div class="card">
+                   <h2 id="months">0</h2>
+                   <p>months</p>
+                </div>
+
+              </div>
+             <hr class="sp">
+              <div class="button-section">
+              <p>life chapter</p>
+          <div class="age-button">
+            <button class="chapter" id="infancy" type="button">infancy</button>
+            <button class="chapter" id="teen" type="button">teen</button>
+            <button class="chapter" id="twenties" type="button">twenties</button>
+            <button class="chapter" id="thirties" type="button">thirties</button>
+            <button class="chapter" id="forties" type="button">forties</button>
+            <button class="chapter" id="fifties" type="button">fifties</button>
+            <button class="chapter" id="sixties" type="button">sixties</button>
+            <button class="chapter" id="seventies" type="button">seventies</button>
+            <button class="chapter" id="elder" type="button">elder</button>
+
+        </div>
+
+              </div>
+
+           </div>
+
+              </div>
+        </div>
+
+        </div>
+    </header>
+
+    <div class="birthday-overlay" id="birthday-overlay">
+      <h1 class="birthday-text">🎉 Happy Birthday! 🎉</h1>
+      <div class="balloons" id="balloons"></div>
+      <div id="cake-contianer" ></div>
+      <div id="cat-container" class="cat-container">
+        <img src="eso.png" alt="cat" class="cat">
+      </div>
+      <audio src="Albumaty.Com.Hamada.Helal.Elnhrda.Eid.Melad.mp3" id="audio"></audio>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+    <script src="task.js"></script>
+</body>
+</html>
