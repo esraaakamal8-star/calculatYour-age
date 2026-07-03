@@ -116,7 +116,7 @@ function birthCelebration() {
     interval = setInterval(function () {
 
         confetti({
-            particleCount: 200,
+            particleCount: 100,
             spread: 60,
             zIndex:2000,
             origin: {
