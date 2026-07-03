@@ -420,7 +420,7 @@ canvas{
     font-weight: 900;
     color: #635BFF;
     text-shadow: 3px 3px 0px #3e3474, 5px 5px 15px rgba(0, 0, 0, 0.2);
-    z-index: 100000;
+    z-index: 200000;
     opacity: 0;
     white-space: nowrap;
 }
@@ -471,7 +471,7 @@ canvas{
         width: 220px;
         height: 220px;
     }
-    
+
     .birthday-text {
         font-size: 3rem;
     }
@@ -588,8 +588,12 @@ canvas{
 
     .cat-container{
        left: 38%;
-       top: 15%;
+       top: 5%;
        transform: translateX(-50%);
+   }
+
+   .cat{
+    width: 400px;
    }
 
     .birthday-text{
